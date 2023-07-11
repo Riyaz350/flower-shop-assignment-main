@@ -34,9 +34,9 @@
     margin: 0px auto;
 }
 
-/* banner1 styles */
+/* banner styles */
 
-.banner1{
+.banner{
     background: rgba(229, 84, 115, 0.10);
     display: flex;
     justify-content: space-between;
@@ -44,28 +44,26 @@
     padding: 50px 240px 0px 240px;
 }
 
-.banner1-text{
+.banner-text{
     margin-top: 190px;
-}
-.banner1-title{
-    color: #272727;
-    font-size: 80px;
-    font-weight: 800;
-    
-}
-
-.banner1-text{
     padding-bottom: 145px;
 }
-.banner1-text h1, p{
+.banner-title{
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;   
+}
+
+.banner-text h1, p{
     padding-bottom: 35px;
 }
 
-.banner1-image{
+.banner-image{
     margin-top: 50px;
 }
-.banner1 img{
+.banner img{
     display: block;
+    vertical-align: bottom;
 }
 
 
